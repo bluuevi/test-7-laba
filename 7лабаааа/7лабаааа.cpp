@@ -5,9 +5,11 @@ using namespace std;
 //s
 //,xmcSDLvbSvjS
 //wlfMk;nWIOUWLJN4OUGF; vu wui cCK CK JK CKLCAбо додо рчранлпглорапдшлорам лорппрор
-int check(int a) //проверка на число 
+
+
+int PIDORAS(int a) //FFFFFFF
 {
-    while (!(cin >> a)) // пока не будет введено целое число  
+    while (!(cin >> a)) // FFFFFFFF
     {
         if ((cin.fail())) // если ошибка ввода  
         {
