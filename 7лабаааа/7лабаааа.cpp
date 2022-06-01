@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+//s
+//,xmcSDLvbSvjS
+//wlfMk;nWIOUWLJN4OUGF; vu wui cCK CK JK CKLCAбо додо рчранлпглорапдшлорам лорппрор
 int check(int a) //проверка на число 
 {
     while (!(cin >> a)) // пока не будет введено целое число  
@@ -14,6 +17,22 @@ int check(int a) //проверка на число
         }
     } return a; // возвращение функцией числа, прошедшего проверку  
 }
+
+int check(int a) //проверка на число 
+{
+    while (!(cin >> a)) // пока не будет введено целое число  
+    {
+        if ((cin.fail())) // если ошибка ввода  
+        {
+            cout << "Повторите попытку" << endl;
+            cin.clear(); // Очищаем буфер ввода  
+            cin.ignore(1000, '\n'); // Убирает новую строку из cin  
+        }
+    } return a; // возвращение функцией числа, прошедшего проверку  
+}
+
+
+
 int check_num(int a, int min) //проверка на число больше min 
 {
     while (!(cin >> a) || (a <= min)) // пока не будет введено целое число  
